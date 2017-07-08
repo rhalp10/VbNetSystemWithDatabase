@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA41DCA8-ACF5-485E-8EE8-E58865A5832F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication2.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication2</RootNamespace>
+    <AssemblyName>WindowsApplication2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection.vb" />
+    <Compile Include="dtDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dtDataSet.vb">
+      <DependentUpon>dtDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="general2.Designer.vb">
+      <DependentUpon>general2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="general2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="language2.Designer.vb">
+      <DependentUpon>language2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="language2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="privacy2.Designer.vb">
+      <DependentUpon>privacy2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="privacy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recordset.vb" />
+    <Compile Include="settings2.Designer.vb">
+      <DependentUpon>settings2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="settings2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="language.Designer.vb">
+      <DependentUpon>language.vb</DependentUpon>
+    </Compile>
+    <Compile Include="language.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="privacy.Designer.vb">
+      <DependentUpon>privacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="privacy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="general.Designer.vb">
+      <DependentUpon>general.vb</DependentUpon>
+    </Compile>
+    <Compile Include="general.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings.Designer.vb">
+      <DependentUpon>settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration.Designer.vb">
+      <DependentUpon>registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile.Designer.vb">
+      <DependentUpon>profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="general2.resx">
+      <DependentUpon>general2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="language2.resx">
+      <DependentUpon>language2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="privacy2.resx">
+      <DependentUpon>privacy2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings2.resx">
+      <DependentUpon>settings2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="language.resx">
+      <DependentUpon>language.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="privacy.resx">
+      <DependentUpon>privacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="general.resx">
+      <DependentUpon>general.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration.resx">
+      <DependentUpon>registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dtDataSet.xsc">
+      <DependentUpon>dtDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dtDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dtDataSet.xss">
+      <DependentUpon>dtDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIGNUP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIGNUP1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOME.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\so.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dt.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
