@@ -1,0 +1,83 @@
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe.config
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\dt.accdb
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.pdb
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.xml
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Form1.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general2.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.language2.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.privacy2.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings2.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.language.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.privacy.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.login.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.registration.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.profile.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.homepage.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\DreamTeam.vbproj.GenerateResource.Cache
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
+D:\Printing Documents\carlos\dreamteam\WindowsApplication2\bin\x86\Debug\dt.mdb
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe.config
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\dt.accdb
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\dt.mdb
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.pdb
+D:\My Documents\dreamteam\WindowsApplication2\bin\x86\Debug\WindowsApplication2.xml
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general2.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.privacy2.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings2.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.privacy.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.login.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.registration.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.profile.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.homepage.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+D:\My Documents\dreamteam\WindowsApplication2\obj\x86\Debug\DreamTeam.vbproj.GenerateResource.Cache
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.deac.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.login.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.registration.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.profile.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.txtPost.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\DreamTeam.vbproj.GenerateResource.Cache
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe.config
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\dt.accdb
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\dt.mdb
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\WindowsApplication2.pdb
+D:\My Documents\dt\WindowsApplication2\bin\x86\Debug\WindowsApplication2.xml
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
+D:\My Documents\dt\WindowsApplication2\obj\x86\Debug\WindowsApplication2.frmSearch.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe.config
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\bin\x86\Debug\dt.mdb
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\bin\x86\Debug\WindowsApplication2.exe
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\bin\x86\Debug\WindowsApplication2.pdb
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\bin\x86\Debug\WindowsApplication2.xml
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\DreamTeam.vbprojResolveAssemblyReference.cache
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.deac.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.frmSearch.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.settings.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.general.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.login.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.registration.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.profile.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.txtPost.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+C:\Users\Darren\Documents\Visual Studio 2015\Projects\dt updte\WindowsApplication2\obj\x86\Debug\DreamTeam.vbproj.GenerateResource.Cache

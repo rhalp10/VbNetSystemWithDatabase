@@ -28,7 +28,8 @@ Partial Class login
         Me.lblpass = New System.Windows.Forms.Label()
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.btnReg = New System.Windows.Forms.Button()
-        Me.lnklblforgot = New System.Windows.Forms.LinkLabel()
+        Me.lblUname = New System.Windows.Forms.Label()
+        Me.lbllogged = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtuserName
@@ -71,7 +72,7 @@ Partial Class login
         Me.btnLogin.BackColor = System.Drawing.Color.DodgerBlue
         Me.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnLogin.Location = New System.Drawing.Point(779, 202)
+        Me.btnLogin.Location = New System.Drawing.Point(789, 191)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(75, 23)
         Me.btnLogin.TabIndex = 4
@@ -83,24 +84,32 @@ Partial Class login
         Me.btnReg.BackColor = System.Drawing.Color.DodgerBlue
         Me.btnReg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btnReg.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnReg.Location = New System.Drawing.Point(880, 202)
+        Me.btnReg.Location = New System.Drawing.Point(870, 191)
         Me.btnReg.Name = "btnReg"
         Me.btnReg.Size = New System.Drawing.Size(75, 23)
         Me.btnReg.TabIndex = 5
         Me.btnReg.Text = "Register"
         Me.btnReg.UseVisualStyleBackColor = False
         '
-        'lnklblforgot
+        'lblUname
         '
-        Me.lnklblforgot.AutoSize = True
-        Me.lnklblforgot.BackColor = System.Drawing.Color.Transparent
-        Me.lnklblforgot.LinkColor = System.Drawing.Color.White
-        Me.lnklblforgot.Location = New System.Drawing.Point(809, 238)
-        Me.lnklblforgot.Name = "lnklblforgot"
-        Me.lnklblforgot.Size = New System.Drawing.Size(124, 13)
-        Me.lnklblforgot.TabIndex = 6
-        Me.lnklblforgot.TabStop = True
-        Me.lnklblforgot.Text = "FORGOT PASSWORD?"
+        Me.lblUname.AutoSize = True
+        Me.lblUname.BackColor = System.Drawing.Color.Transparent
+        Me.lblUname.Location = New System.Drawing.Point(244, 252)
+        Me.lblUname.Name = "lblUname"
+        Me.lblUname.Size = New System.Drawing.Size(10, 13)
+        Me.lblUname.TabIndex = 6
+        Me.lblUname.Text = " "
+        Me.lblUname.Visible = False
+        '
+        'lbllogged
+        '
+        Me.lbllogged.AutoSize = True
+        Me.lbllogged.Location = New System.Drawing.Point(943, 371)
+        Me.lbllogged.Name = "lbllogged"
+        Me.lbllogged.Size = New System.Drawing.Size(0, 13)
+        Me.lbllogged.TabIndex = 7
+        Me.lbllogged.Visible = False
         '
         'login
         '
@@ -109,8 +118,9 @@ Partial Class login
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.BackgroundImage = Global.WindowsApplication2.My.Resources.Resources.LOGIN
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1087, 469)
-        Me.Controls.Add(Me.lnklblforgot)
+        Me.ClientSize = New System.Drawing.Size(1087, 446)
+        Me.Controls.Add(Me.lbllogged)
+        Me.Controls.Add(Me.lblUname)
         Me.Controls.Add(Me.btnReg)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.lblpass)
@@ -129,6 +139,7 @@ Partial Class login
     Friend WithEvents lblpass As System.Windows.Forms.Label
     Friend WithEvents btnLogin As System.Windows.Forms.Button
     Friend WithEvents btnReg As System.Windows.Forms.Button
-    Friend WithEvents lnklblforgot As System.Windows.Forms.LinkLabel
+    Friend WithEvents lblUname As System.Windows.Forms.Label
+    Friend WithEvents lbllogged As System.Windows.Forms.Label
 
 End Class

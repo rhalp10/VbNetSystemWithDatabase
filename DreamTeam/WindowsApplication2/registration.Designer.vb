@@ -37,15 +37,16 @@ Partial Class registration
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboGender = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.txtQuestion = New System.Windows.Forms.TextBox()
+        Me.cboQuestion = New System.Windows.Forms.ComboBox()
+        Me.cboStatus = New System.Windows.Forms.ComboBox()
+        Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.txtAnswer = New System.Windows.Forms.TextBox()
+        Me.lblcheckretype = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtFname
@@ -119,11 +120,11 @@ Partial Class registration
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(228, 145)
+        Me.Label3.Location = New System.Drawing.Point(226, 145)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.Size = New System.Drawing.Size(55, 13)
         Me.Label3.TabIndex = 9
-        Me.Label3.Text = "User Name"
+        Me.Label3.Text = "Username"
         '
         'Label4
         '
@@ -174,7 +175,7 @@ Partial Class registration
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(239, 340)
+        Me.Label8.Location = New System.Drawing.Point(236, 340)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(42, 13)
         Me.Label8.TabIndex = 14
@@ -186,15 +187,16 @@ Partial Class registration
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(214, 20)
         Me.DateTimePicker1.TabIndex = 15
+        Me.DateTimePicker1.Value = New Date(1980, 1, 1, 0, 0, 0, 0)
         '
-        'ComboBox1
+        'cboGender
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"male" & Global.Microsoft.VisualBasic.ChrW(9), "female"})
-        Me.ComboBox1.Location = New System.Drawing.Point(193, 356)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 16
+        Me.cboGender.FormattingEnabled = True
+        Me.cboGender.Items.AddRange(New Object() {"male" & Global.Microsoft.VisualBasic.ChrW(9), "female"})
+        Me.cboGender.Location = New System.Drawing.Point(193, 356)
+        Me.cboGender.Name = "cboGender"
+        Me.cboGender.Size = New System.Drawing.Size(121, 21)
+        Me.cboGender.TabIndex = 16
         '
         'Label9
         '
@@ -218,63 +220,72 @@ Partial Class registration
         Me.Label11.TabIndex = 19
         Me.Label11.Text = "Security Question"
         '
-        'ComboBox2
+        'cboQuestion
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"who is your crush?", "what is the name of your favorite dog?", "what is your most remarkable moment?", "who's your favorite superhero?"})
-        Me.ComboBox2.Location = New System.Drawing.Point(149, 436)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(214, 21)
-        Me.ComboBox2.TabIndex = 21
+        Me.cboQuestion.FormattingEnabled = True
+        Me.cboQuestion.Items.AddRange(New Object() {"who is your crush?", "what is the name of your favorite dog?", "what is your most remarkable moment?", "who's your favorite superhero?"})
+        Me.cboQuestion.Location = New System.Drawing.Point(149, 436)
+        Me.cboQuestion.Name = "cboQuestion"
+        Me.cboQuestion.Size = New System.Drawing.Size(214, 21)
+        Me.cboQuestion.TabIndex = 21
         '
-        'ComboBox3
+        'cboStatus
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"single ", "in a relationship", "engaged", "complicated", "married ", "widowed"})
-        Me.ComboBox3.Location = New System.Drawing.Point(193, 396)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 22
+        Me.cboStatus.FormattingEnabled = True
+        Me.cboStatus.Items.AddRange(New Object() {"single ", "in a relationship", "engaged", "complicated", "married ", "widowed"})
+        Me.cboStatus.Location = New System.Drawing.Point(193, 396)
+        Me.cboStatus.Name = "cboStatus"
+        Me.cboStatus.Size = New System.Drawing.Size(121, 21)
+        Me.cboStatus.TabIndex = 22
         '
-        'Button1
+        'btnSubmit
         '
-        Me.Button1.BackColor = System.Drawing.Color.DodgerBlue
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(173, 483)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 23
-        Me.Button1.Text = "SUBMIT"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnSubmit.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnSubmit.Location = New System.Drawing.Point(174, 489)
+        Me.btnSubmit.Name = "btnSubmit"
+        Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
+        Me.btnSubmit.TabIndex = 23
+        Me.btnSubmit.Text = "SUBMIT"
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnBack
         '
-        Me.Button2.BackColor = System.Drawing.Color.DodgerBlue
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(213, 512)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 24
-        Me.Button2.Text = "BACK"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnBack.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnBack.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnBack.Location = New System.Drawing.Point(225, 518)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(75, 23)
+        Me.btnBack.TabIndex = 24
+        Me.btnBack.Text = "BACK"
+        Me.btnBack.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnClear
         '
-        Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(254, 483)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 25
-        Me.Button3.Text = "CLEAR"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnClear.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnClear.Location = New System.Drawing.Point(254, 489)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.TabIndex = 25
+        Me.btnClear.Text = "CLEAR"
+        Me.btnClear.UseVisualStyleBackColor = False
         '
-        'txtQuestion
+        'txtAnswer
         '
-        Me.txtQuestion.Location = New System.Drawing.Point(200, 463)
-        Me.txtQuestion.Name = "txtQuestion"
-        Me.txtQuestion.Size = New System.Drawing.Size(100, 20)
-        Me.txtQuestion.TabIndex = 26
+        Me.txtAnswer.Location = New System.Drawing.Point(200, 463)
+        Me.txtAnswer.Name = "txtAnswer"
+        Me.txtAnswer.Size = New System.Drawing.Size(100, 20)
+        Me.txtAnswer.TabIndex = 26
+        '
+        'lblcheckretype
+        '
+        Me.lblcheckretype.AutoSize = True
+        Me.lblcheckretype.BackColor = System.Drawing.Color.Transparent
+        Me.lblcheckretype.Location = New System.Drawing.Point(326, 239)
+        Me.lblcheckretype.Name = "lblcheckretype"
+        Me.lblcheckretype.Size = New System.Drawing.Size(0, 13)
+        Me.lblcheckretype.TabIndex = 28
         '
         'registration
         '
@@ -282,15 +293,16 @@ Partial Class registration
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.WindowsApplication2.My.Resources.Resources.SIGNUP1
         Me.ClientSize = New System.Drawing.Size(462, 567)
-        Me.Controls.Add(Me.txtQuestion)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.lblcheckretype)
+        Me.Controls.Add(Me.txtAnswer)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnBack)
+        Me.Controls.Add(Me.btnSubmit)
+        Me.Controls.Add(Me.cboStatus)
+        Me.Controls.Add(Me.cboQuestion)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cboGender)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -328,13 +340,14 @@ Partial Class registration
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboGender As System.Windows.Forms.ComboBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents txtQuestion As System.Windows.Forms.TextBox
+    Friend WithEvents cboQuestion As System.Windows.Forms.ComboBox
+    Friend WithEvents cboStatus As System.Windows.Forms.ComboBox
+    Friend WithEvents btnSubmit As System.Windows.Forms.Button
+    Friend WithEvents btnBack As System.Windows.Forms.Button
+    Friend WithEvents btnClear As System.Windows.Forms.Button
+    Friend WithEvents txtAnswer As System.Windows.Forms.TextBox
+    Friend WithEvents lblcheckretype As System.Windows.Forms.Label
 End Class
